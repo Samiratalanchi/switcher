@@ -5,3 +5,10 @@ img {
     width: 200px;
     height: 200px;
 }
+.card-header,.card-footer {
+    color: white;
+    background-color: #1260cc;
+}
+#card {
+    border-color: #1260cc;
+}
