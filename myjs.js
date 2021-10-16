@@ -50,6 +50,12 @@ window.onload=function() {
     }
     fContent += " ago";
     footer.innerHTML= fContent;
+
+    document.getElementById("card").style.borderColor="#1260cc";
+    document.getElementsByClassName("card-header")[0].style.backgroundColor="#1260cc";
+    document.getElementsByClassName("card-header")[0].style.color="white";
+    document.getElementsByClassName("card-footer")[0].style.backgroundColor="#1260cc";
+    document.getElementsByClassName("card-footer")[0].style.color="white";
 }
 function darkmode() {
     let switcher = document.getElementById("myswitcher");
