@@ -15,15 +15,35 @@
      <script src="./myjs.js"></script>
 </head>
 <body>
-    <form>
-        <div class="form-check form-switch container">
-            <input type="checkbox" class="form-check-input" id="myswitcher" name="switcher" value="yes" onchange="darkmode()">
-            <label class="form-check-label" for="myswitcher">
-                <p id="content">Dark mode</p>
-            </label>
-            <p class="text-muted small" id="view"></p>
+    <div id="container" class="container responsive-sm">
+        <form>
+            <div class="form-check form-switch container">
+                <input type="checkbox" class="form-check-input" id="myswitcher" name="switcher" value="yes" onchange="darkmode()">
+                <label class="form-check-label" for="myswitcher">
+                    <p id="content">Dark mode</p>
+                </label>
+                <p class="text-muted small" id="view"></p>
+            </div>
+        </form>
+        <div class="card">
+            <div class="card-header">
+                Info
+            </div>
+            <img class="card-img-top" src="./mykonos.jpg" alt="mykonos" >
+            <div class="card-body">
+                <h3 class="card-title">Mykonos Island</h3>
+                <p class="card-text">Mykonos is a Greek island.</p>
+                <p class="card-text">Mykonos has a hot semi-arid climate because of the low overall rainfall, although it has lots of Mediterranean characteristics and it is highly influenced by the Mediterranean Sea.</p>
+                <p class="card-text">
+                    <a class="card-link" href="https://www.google.com/search?q=mykonos+island&client=safari&rls=en&sxsrf=AOaemvL8nnAOPV1SgvBGblzpTv5HOkULvQ:1634386879914&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZ-ZvL9c7zAhUOlRQKHaDsDDgQ_AUoAXoECAEQAw&biw=1244&bih=818&dpr=1">Here</a>
+                    you can access to other images of it
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted small" id="footer-content"></p>
+            </div>
         </div>
-        
-    </form>
+    </div>
+    
 </body>
 </html>
